@@ -11,16 +11,16 @@
   <body>
     <ul class="nav justify-content-end" id="navBar-Container">
         <li class="nav-item" id="aboutMe-link">
-          <a class="nav-link" href="#">About Me</a>
+          <a class="nav-link" href="#aboutMe">About Me</a>
         </li>
         <li class="nav-item" id="projects">
-          <a class="nav-link" href="#">Projects</a>
+          <a class="nav-link" href="#projects-display">Projects</a>
         </li>
         <li class="nav-item" id="resume">
             <a class="nav-link" href="#">Resume</a>
           </li>
-        <li class="nav-item" id="contactMe">
-          <a class="nav-link" href="#aboutMe">Contact Me</a>
+        <li class="nav-item" id="contactMeNav">
+          <a class="nav-link" href="#contactMe">Contact Me</a>
         </li>
       </ul>
       <div class="row-center" id="aboutMe">About Me</div>
@@ -87,21 +87,69 @@
     </div>
 
 <div class="container-fluid pt-2 justify-content-center" id="project-Container">
-    <button id="projectBtn">Projects<br><i id="arrow" class="fas fa-arrow-up"></i></button> 
+    <a href="#projects-display"><button id="projectBtn">Projects<br><i id="arrow" class="fas fa-arrow-up"></i></button></a>
 </div>
-<div class="container-fluid pt-4">
+<div class="container pt-4 project-Container" id="projects-display">
     <div class="row">
         <div class="col-4">
             <div class="card" style="width: 18rem;">
-                <img src="..." class="card-img-top" alt="...">
+                <img src="../port-remake/net-grill-screencap.png" class="card-img-top" alt="in app picture displaying a movie and a recipe">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                  <p class="card-text">We wanted to solve two dilemmas that every couple have on a regular basis
+                    What are we going to eat?
+                    What are we going to Watch?
+                    These two problems can be solved in as few as five clicks!!
+                    </p>
+                  <a href="https://alexanderleino.github.io/Netflix-and-Grill/" target= "_blank"class="btn ">Deploy</a>
+                  <a href="https://github.com/AlexanderLeino/Netflix-and-Grill" target="_blank" class="btn">Code</a>
+                </div>
+              </div>
+        </div>
+        <div class="col-4">
+            <div class="card" style="width: 18rem;">
+                <h4 id="blackJackTitle">BlackJack</h4>
+                <img src="../port-remake/black-jack.PNG" class="card-img-top" alt="in app picture displaying a movie and a recipe">
+                <div class="card-body">
+                  <p class="card-text">Built a simple card game black jack which has a user interface that displays the cards and keeps track of how much the user is betting each hand. 
+                    </p>
+                  <a href="https://alexanderleino.github.io/blackjack-game/" target= "_blank"class="btn ">Deploy</a>
+                  <a id= href="https://github.com/AlexanderLeino/blackjack-game" target="_blank" class="btn">Code</a>
+                </div>
+              </div>
+        </div>
+        <div class="col-4">
+            <div class="card" style="width: 18rem;">
+                <h4 id="weather">Weather Application</h4>
+                <img src="../port-remake/WeatherDashboard.PNG" class="card-img-top" alt="in app picture displaying a movie and a recipe">
+                <div class="card-body">
+                  <p class="card-text">Used the openWeather APi to obtain weather data for any location that the user searches for and displays results. 
+                    </p>
+                  <a href="https://alexanderleino.github.io/rainydays/" target= "_blank"class="btn ">Deploy</a>
+                  <a href="https://github.com/AlexanderLeino/rainydays" target="_blank" class="btn">Code</a>
                 </div>
               </div>
         </div>
     </div>
+</div>
+<div class="container-fluid pt-2 justify-content-center" id="project-Container">
+    <a href="#contactMe"><button id="projectBtn">Contact Me<br><i id="arrow" class="fas fa-arrow-up"></i></button></a>
+</div>
+<div class="container pb-3">
+
+    <form id="contactMe">
+        <div class="mb-3">
+          <label class="form-label" >First & Last Name</label>
+          <input type="text" class="form-control" placeholder="John Smith">
+          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Email</label>
+          <input type="email" placeholder="John.Smith@google.com" class="form-control" id="exampleInputPassword1">
+        </div>
+        <div class="mb-3 form-check">
+        </div>
+        <button type="submit" class="btn">Submit</button>
+      </form>
 </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
 <script src="script.js"></script>  
