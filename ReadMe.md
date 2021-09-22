@@ -10,7 +10,7 @@ https://alexanderleino.github.io/Port-Remake/
   
 ## Screenshots
 
-<img src="./assets/in-app-screenshot.PNG">
+![App Screenshot](assets\in-app-screenshot.PNG)
 
 ## FAQ
 
