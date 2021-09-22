@@ -7,6 +7,18 @@
 body {
     background-color: black;
 }
+h1 {
+    text-align: center;
+    font-weight: bold;
+    
+}
+ul {
+    list-style: none;
+}
+p {
+    text-align: center;
+}
+
 .nav-item a {
     color: white;
 }
@@ -38,16 +50,6 @@ body {
     border: solid 5px white;
 }
 
-
-#project-Container {
-    display: flex;
-}
-.project-Container {
-    background-color: black;
-}
-#skills-Container{
-    display: flex;
-}
 #arrow {
     margin-left: 10px;
     transform: rotate(180deg) scale(3.5);
@@ -56,9 +58,6 @@ body {
     text-align: center;
     font-size: 50px;
     font-weight: bold;
-}
-ul {
-    list-style: none;
 }
 #previousCard-Heading{
     font-size: 35px;
@@ -71,15 +70,10 @@ ul {
 #social-media {
     margin-top: 50px;
 }
-p {
-    text-align: center;
-}
-.skills-column:hover{
+.skills-card:hover{
     box-shadow: 10px 10px 10px white;
 }
-.project-Container {
-    margin-right: 253px;
-}
+
 #blackJackTitle{
     font-weight: bold;
     font-size: 30px;
@@ -87,9 +81,17 @@ p {
     border-bottom: black 3px solid;
 
 }
-h4{
-    font-weight: bold;
-}
+
 #weather {
     background-image: linear-gradient(270deg, #020024 0%, #090979 35%, #00d4ff 100%)
+}
+#linkedin {
+    transform: scale(2.0);
+    margin-right: 50px;
+}
+#facebook {
+    transform: scale(2.0);
+}
+.project-bins:hover {
+    transform: scale(1.2);
 }

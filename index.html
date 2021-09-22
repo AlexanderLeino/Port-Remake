@@ -9,148 +9,171 @@
     <title>Alexander Leino</title>
   </head>
   <body>
-    <ul class="nav justify-content-end" id="navBar-Container">
-        <li class="nav-item" id="aboutMe-link">
+  <nav>  
+    <ul class="nav justify-content-md-end d-flex"" id="navBar-Container">
+        
+      <li class="nav-item" id="aboutMe-link">
           <a class="nav-link" href="#aboutMe">About Me</a>
         </li>
+
         <li class="nav-item" id="projects">
           <a class="nav-link" href="#projects-display">Projects</a>
         </li>
+
         <li class="nav-item" id="resume">
-            <a class="nav-link" href="./Alexander Leino Resume 2021-1.pdf">Resume</a>
-          </li>
+          <a class="nav-link" target = "_blank" href="./Alexander Leino Resume 2021-1.pdf">Resume</a>
+        </li>
+
         <li class="nav-item" id="contactMeNav">
           <a class="nav-link" href="#contactMe">Contact Me</a>
         </li>
-      </ul>
-      <div class="row-center" id="aboutMe">About Me</div>
-<div class="container-fluid apt-2 aboutMe-Container">
-    <div class="row">
-            <div class="col-2">
-                
+    </ul>
+  </nav>
+
+  
+  <h1 id="aboutMe">About Me</h1>
+  <div class="containter d-flex mt-2 p-3">
+      <p>
+        Hello my name is Alexander Leino I use he/him pronouns. I recently graudated from Trilogy's Michigan State University's Full Stack coding bootcamp. I currently live in Michigan and I am willing to relocate, but would prefer a remote role over relocating. I love learning about new coding languages and tinkering on my own mini projects!
+      </p>
+    </div>
+    
+    <div class="container justify-content-center mt-5 d-flex">
+        <h1>Skills</h1>
+    </div>
+<div class="container">
+  <div class="card-group">
+      <div class="col-4">
+        <div class="card skills-card" style="width: 22rem;">
+          <div class="card-body ">
+            <div class="card-content">
+              <h1 id="skillsHeading">Front End</h1>
+                <ul>
+                  <li>HTML</li>
+                  <li>CSS3</li>
+                  <li>JavaScript</li>
+                  <li>BootStrap</li>
+                  <li>jQuery</li>
+                  <li>React.js</li>
+                </ul>
             </div>
-        <div class="col-8" id="aboutMe-text">
-            <p>
-                Hello my name is Alexander Leino I use he/him pronouns. I recently graudated from Trilogy's Michigan State University's Full Stack coding bootcamp. I currently live in Michigan and I am willing to relocate, but would prefer a remote role over relocating. I love learning about new coding languages and tinkering on my own mini projects!
-            </p>
+          </div>
         </div>
-    </div>
-    <div class="container-fluid mt-5">
-        <h1 id="skillsHeading">Skills</h1>
-    </div>
-        <div id='skills-Container'class="container-fluid justify-content-center mt-3">
-            <div class="row ms-1 justify-content-between">
-                <div class="col-4">
-                    <div class="card skills-column" style="width: 18rem;">
-                        <div class="card-body skill-card">
-                          <div class="card-content">
-                              <h1 id="skillsHeading">Front End</h1>
-                              <ul>
-                                  <li>HTML</li>
-                                  <li>CSS3</li>
-                                  <li>JavaScript</li>
-                                  <li>BootStrap</li>
-                                  <li>jQuery</li>
-                                  <li>React.js</li>
-                              </ul>
-                          </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-4">
-                    <div class="card skills-column" style="width: 18rem;">
-                        <div class="card-body skill-card">
-                          <h1 class="card-title" id="skillsHeading">Back End</h1>
-                          <ul>
-                              <li>Node.js</li>
-                              <li>Express</li>
-                              <li>MongoDB</li>
-                              <li>MySQL</li>
-                          </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-4">
-                    <div class="card skills-column" style="width: 18rem;">
-                        <div class="card-body skill-card">
-                          <h1 id="previousCard-Heading" class="card-title">Accolades</h1>
-                          <ul id="accolades-list">
-                              <li>Trilogy Bootcamp Certificate Recipient </li>
-                              <li>Achieved Bachelors in Finance from Western Michigan University </li>
-                              <li>i-Lead Award Recipient PNC 2021</li>
-                          </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>  
-        </div>
-    </div>
+      </div>
 
-<div class="container-fluid pt-2 justify-content-center" id="project-Container">
-    <a href="#projects-display"><button id="projectBtn">Projects<br><i id="arrow" class="fas fa-arrow-up"></i></button></a>
+      <div class="col-4">
+        <div class="card skills-card" style="width: 22rem;">
+          <div class="card-body">
+            <h1 class="card-title" id="skillsHeading">Back End</h1>
+              <ul>
+                <li>Node.js</li>
+                <li>Express</li>
+                <li>MongoDB</li>
+                <li>MySQL</li>
+              </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-4">
+        <div class="card skills-card" style="width: 22rem;">
+          <div class="card-body">
+            <h1 class="card-title">Accolades</h1>
+              <ul id="accolades-list">
+                <li>Trilogy Bootcamp Certificate Recipient </li>
+                <li>Achieved Bachelors in Finance from Western Michigan University </li>
+                <li>i-Lead Award Recipient PNC 2021</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+    </div>
 </div>
-<div class="container pt-4 project-Container" id="projects-display">
-    <div class="row">
-        <div class="col-4">
-            <div class="card" style="width: 18rem;">
+          
+<div class="container d-flex justify-content-center mt-3">
+      <div class="row">
+        <a href="#projects-display"><button id="projectBtn">Projects<br><i id="arrow" class="fas fa-arrow-up"></i></button></a>
+      </div>
+</div>
+
+<div class="container pt-4">
+    <div class="card-group">
+          <div class="col-4 project-bins">
+              <div class="card" style="width: 18rem;">
                 <img src="../port-remake/net-grill-screencap.png" class="card-img-top" alt="in app picture displaying a movie and a recipe">
-                <div class="card-body">
-                  <p class="card-text">We wanted to solve two dilemmas that every couple have on a regular basis
-                    What are we going to eat?
-                    What are we going to Watch?
-                    These two problems can be solved in as few as five clicks!!
-                    </p>
-                  <a href="https://alexanderleino.github.io/Netflix-and-Grill/" target= "_blank"class="btn ">Deploy</a>
-                  <a href="https://github.com/AlexanderLeino/Netflix-and-Grill" target="_blank" class="btn">Code</a>
-                </div>
+                  <div class="card-body">
+                    <p class="card-text">We wanted to solve two dilemmas that every couple have on a regular basis
+                      What are we going to eat?
+                      What are we going to Watch?
+                      These two problems can be solved in as few as five clicks!!
+                      </p>
+                    <div class="container d-flex justify-content-between">
+                      <a href="https://alexanderleino.github.io/Netflix-and-Grill/" target= "_blank"class="btn ">Deploy</a>
+                      <a href="https://github.com/AlexanderLeino/Netflix-and-Grill" target="_blank" class="btn">Code</a>
+                    </div>
+                  </div>
               </div>
-        </div>
-        <div class="col-4">
-            <div class="card" style="width: 18rem;">
-                <h4 id="blackJackTitle">BlackJack</h4>
-                <img src="../port-remake/black-jack.PNG" class="card-img-top" alt="in app picture displaying a movie and a recipe">
-                <div class="card-body">
-                  <p class="card-text">Built a simple card game black jack which has a user interface that displays the cards and keeps track of how much the user is betting each hand. 
-                    </p>
-                  <a href="https://alexanderleino.github.io/blackjack-game/" target= "_blank"class="btn ">Deploy</a>
-                  <a id= href="https://github.com/AlexanderLeino/blackjack-game" target="_blank" class="btn">Code</a>
+          </div>
+  
+          <div class="col-4 project-bins">
+              <div class="card" style="width: 18rem;">
+                <h1 id="blackJackTitle">BlackJack</h1>
+                  <img src="../port-remake/black-jack.PNG" class="card-img-top" alt="in app picture displaying a movie and a recipe">
+                    <div class="card-body">
+                      <p class="card-text">Built a simple card game black jack which has a user interface that displays the cards and keeps track of how much the user is betting each hand.
+                      </p>
+                    <div class="container d-flex justify-content-between">
+                      <a href="https://alexanderleino.github.io/blackjack-game/" target= "_blank"class="btn ">Deploy</a>
+                      <a id= href="https://github.com/AlexanderLeino/blackjack-game" target="_blank" class="btn">Code</a>
+                    </div>
+                  </div>
                 </div>
-              </div>
-        </div>
-        <div class="col-4">
+          </div>
+  
+          <div class="col-4 project-bins">
             <div class="card" style="width: 18rem;">
-                <h4 id="weather">Weather Application</h4>
+              <h1 id="weather">Weather Application</h1>
                 <img src="../port-remake/WeatherDashboard.PNG" class="card-img-top" alt="in app picture displaying a movie and a recipe">
-                <div class="card-body">
-                  <p class="card-text">Used the openWeather APi to obtain weather data for any location that the user searches for and displays results. 
+                  <div class="card-body">
+                    <p class="card-text">Used the openWeather APi to obtain weather data for any location that the user searches for and displays results.
                     </p>
-                  <a href="https://alexanderleino.github.io/rainydays/" target= "_blank"class="btn ">Deploy</a>
-                  <a href="https://github.com/AlexanderLeino/rainydays" target="_blank" class="btn">Code</a>
-                </div>
-              </div>
-        </div>
-    </div>
+                      <div class="container d-flex justify-content-between">
+                        <a href="https://alexanderleino.github.io/rainydays/" target= "_blank"class="btn ">Deploy</a>
+                        <a href="https://github.com/AlexanderLeino/rainydays" target="_blank" class="btn">Code</a>
+                      </div>
+                  </div>
+            </div>
+          </div>
+    </div>   
 </div>
-<div class="container-fluid pt-2 justify-content-center" id="project-Container">
-    <a href="#contactMe"><button id="projectBtn">Contact Me<br><i id="arrow" class="fas fa-arrow-up"></i></button></a>
-</div>
-<div class="container pb-3" id="formContainer">
 
-    <form id="contactMe">
+<div class="container pt-2 d-flex justify-content-center">
+  <a href="#contactMe"><button id="projectBtn">Contact Me<br><i id="arrow" class="fas fa-arrow-up"></i></button></a>
+</div>
+
+<div class="container pb-3" id="submitTextHolder">
+  <form id="contactMe">
         <div class="mb-3">
           <label class="form-label" >First & Last Name</label>
           <input type="text" class="form-control" placeholder="John Smith">
-          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
         </div>
         <div class="mb-3">
-          <label for="exampleInputPassword1" class="form-label">Email</label>
-          <input type="email" placeholder="John.Smith@google.com" class="form-control" id="exampleInputPassword1">
-        </div>
-        <div class="mb-3 form-check">
+          <label class="form-label">Email</label>
+          <input type="email" placeholder="John.Smith@google.com" class="form-control">
         </div>
         <button type="submit" class="btn" id="submitBtn">Submit</button>
-      </form>
+  </form>
 </div>
+
+<footer>
+  <div class="container d-flex justify-content-md-end">
+    <a target ="_blank" href="https://www.linkedin.com/in/alexander-leino/"><i id="linkedin" class="fab fa-linkedin"></i></a>
+    <a target ="_blank" href="https://www.facebook.com/LeinoAlexander/"><i id="facebook"class="fab fa-facebook"></i></a>
+  </div>
+  </footer>
+  <div class="container d-flex justify-content-center">
+      <a href="#aboutMe">
+      <h1>Back to Top of Page</h1></a>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
 <script src="script.js"></script>  
 </body>
