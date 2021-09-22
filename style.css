@@ -18,7 +18,9 @@ ul {
 p {
     text-align: center;
 }
-
+#profile-picture {
+    padding-right: 10px;
+}
 .nav-item a {
     color: white;
 }
@@ -94,4 +96,10 @@ p {
 }
 .project-bins:hover {
     transform: scale(1.2);
+}
+@media screen and (max-width: 767px) {
+    #profile-picture {
+        visibility: hidden;
+    }
+    
 }
