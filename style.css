@@ -97,6 +97,9 @@ p {
 .project-bins:hover {
     transform: scale(1.2);
 }
+a {
+    text-decoration: none ;
+}
 @media screen and (max-width: 767px) {
     #profile-picture {
         visibility: hidden;
